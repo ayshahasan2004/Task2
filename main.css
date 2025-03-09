@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.Nav {
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: flex; /* Align items in a row */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 30px; 
+}
+.LOGO {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.LIST ul {
+    display: flex; /* Make the list horizontal */
+    gap: 20px;
+}
+.LIST ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+   
+}
+
